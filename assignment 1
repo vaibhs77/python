@@ -14,3 +14,43 @@ x= 9
 
 
 checknum(x)
+
+
+def add():
+    x = input("enter frist no:  ")
+    y = input("enter second no:  ")
+    z = int(x) + int(y)
+    print(z)
+    return add
+
+add()
+
+list =["marvellous","marvellous","marvellous","marvellous","marvellous"]
+
+print(list[0])
+print(list[1])
+print(list[2])
+print(list[3])
+print(list[4])
+
+num = float(input("Enter a number: "))
+if num > 0:
+   print("Positive number")
+elif num == 0:
+   print("Zero")
+else:
+   print("Negative number")
+   
+   
+   def vaibhav(x):
+  if (int(x % 5) == 0):
+    print("true")
+  else:
+      print("false")
+
+x= 8
+
+vaibhav(x)
+
+name = input("enter your name:    ")
+print(len(name))
